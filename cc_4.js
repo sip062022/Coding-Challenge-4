@@ -50,3 +50,10 @@ let products = ["Cheese", "Bread", "Mustard"]; // Declares products array
 for(let product of products){  // Defines for...of loop for products within product array
     console.log(`Product: ${product}`);  // Displays products from the array
 }
+
+// Task 7: forEach() Method //
+
+let orders = [101, 102, 103]; // Declares the orders array
+orders.forEach((orders, index) => {  // Declares forEach method for the orders
+    console.log(`Order ${index + 1}: ${orders}`); // Displays each order number
+});
