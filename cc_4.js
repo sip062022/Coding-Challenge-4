@@ -57,3 +57,9 @@ let orders = [101, 102, 103]; // Declares the orders array
 orders.forEach((orders, index) => {  // Declares forEach method for the orders
     console.log(`Order ${index + 1}: ${orders}`); // Displays each order number
 });
+
+// Task 8: Function Declaration //
+
+let amount = 20; // Defines amount to be taxed
+let calculateTax = amount * 0.1 // Defines function calculate Tax
+console.log(`Tax Amount: $${calculateTax}`); // Displays tax amount
