@@ -68,3 +68,12 @@ let taxAmount = calculateTax(20, 0.1); // Defines variables to be inserted into 
 
 console.log(`Tax Amount: $${taxAmount}`); // Displays tax amount
 
+// Task 9: Function Expressions //
+
+function applyDiscount(price, discount) { // Defines function variables
+    return price*discount; // Defines formula
+}
+
+let discountAmount = applyDiscount(40,0.95); // Defines variables to be inserted into formula
+
+console.log(`Price After Discount: $${discountAmount}`); // Displays discounted price
