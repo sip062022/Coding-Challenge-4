@@ -23,7 +23,7 @@ console.log(`Total Sales: $${totalSales}`);  // Displays Total sales amount
 // Task 3: While Loop //
 
 let stock = 10; // Defines stock variable
-while (stock > 0) { // Initiates while loop to say loop should run until stock = 0
+while (stock >= 0) { // Initiates while loop to say loop should run until stock = 0
     console.log(`New Value After Decrement of 2: ${stock}`); // Displays New Value
     stock--;stock--; // Decreases stock by 2 for each loop
 }
