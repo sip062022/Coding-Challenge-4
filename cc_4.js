@@ -27,3 +27,13 @@ while (stock > 0) { // Initiates while loop to say loop should run until stock =
     console.log(`New Value After Decrement of 2: ${stock}`); // Displays New Value
     stock--;stock--; // Decreases stock by 2 for each loop
 }
+
+// Task 4: Do...While Loop //
+
+responses = 0; // Declares responses variable
+
+do {         // Defines what program will do
+    console.log(`Response: ${responses}`);  // Program will display response...
+    responses++;  // ...With increment by 1 for each response...
+} while (responses<=3);  // ...until there are three responses
+
