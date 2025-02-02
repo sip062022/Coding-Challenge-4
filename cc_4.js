@@ -77,3 +77,11 @@ function applyDiscount(price, discount) { // Defines function variables
 let discountAmount = applyDiscount(40,0.95); // Defines variables to be inserted into formula
 
 console.log(`Price After Discount: $${discountAmount}`); // Displays discounted price
+
+// Task 10: Arrow Functions //
+
+const calculatePoints = (purchaseAmount) => purchaseAmount * 0.1; // defines function
+
+let amount = 500; // defines purchase amount
+let points = calculatePoints(amount); // defines that points should be calculated by using calculatePoints formula with respect to amount
+console.log(`Points Earned: ${points}`); // Displays points earned
