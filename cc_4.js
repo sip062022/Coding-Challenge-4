@@ -43,3 +43,10 @@ let employee = {name: "Alice", position: "Manager", salary: 75000}; // Defines o
 for (let property in employee) {  // Defines the for..in loop for properties within employee
     console.log(`${property}: ${employee[property]}`);  // Displays each property within employee 
 }
+
+// Task 6: For...Of Loop //
+
+let products = ["Cheese", "Bread", "Mustard"]; // Declares products array
+for(let product of products){  // Defines for...of loop for products within product array
+    console.log(`Product: ${product}`);  // Displays products from the array
+}
