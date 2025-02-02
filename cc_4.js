@@ -60,6 +60,11 @@ orders.forEach((orders, index) => {  // Declares forEach method for the orders
 
 // Task 8: Function Declaration //
 
-let amount = 20; // Defines amount to be taxed
-let calculateTax = amount * 0.1 // Defines function calculate Tax
-console.log(`Tax Amount: $${calculateTax}`); // Displays tax amount
+function calculateTax(price, taxRate) { // Defines the function variables
+    return price*taxRate; // Defines formula to be used
+} 
+
+let taxAmount = calculateTax(20, 0.1); // Defines variables to be inserted into formula
+
+console.log(`Tax Amount: $${taxAmount}`); // Displays tax amount
+
