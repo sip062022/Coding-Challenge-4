@@ -37,3 +37,9 @@ do {         // Defines what program will do
     responses++;  // ...With increment by 1 for each response...
 } while (responses<=3);  // ...until there are three responses
 
+// Task 5: For...In Loop // 
+
+let employee = {name: "Alice", position: "Manager", salary: 75000}; // Defines object employee
+for (let property in employee) {  // Defines the for..in loop for properties within employee
+    console.log(`${property}: ${employee[property]}`);  // Displays each property within employee 
+}
